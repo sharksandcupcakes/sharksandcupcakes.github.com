@@ -1,10 +1,13 @@
 /*
     LESS CSS Toolkit
-    
+
     A collection of re-usable LESS CSS Mixins
-    
+
     Daniel T. Ott
     http://dtott.com
+
+    Bridget Stewart
+    http://sharksandcupcakes.com
 
 */
 body {
@@ -274,11 +277,11 @@ small > a {
   background-size: auto 210%;
 }
 .header-wrapper {
-  background-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, #fde5a7), color-stop(1, #fef6e1));
-  background-image: -webkit-linear-gradient(top, #fde5a7 0%, #fef6e1 100%);
-  background-image: -o-linear-gradient(top, #fde5a7 0%, #fef6e1 100%);
-  background-image: -moz-linear-gradient(top, #fde5a7 0%, #fef6e1 100%);
-  background-image: linear-gradient(top, #fde5a7 0%, #fef6e1 100%);
+  background: -webkit-gradient(linear, center top, center bottom, color-stop(0, #fde5a7), color-stop(0.5, #fef6e1));
+  background: -webkit-linear-gradient(center top, #fde5a7, #fef6e1);
+  background: -o-linear-gradient(center top, #fde5a7, #fef6e1);
+  background: -moz-linear-gradient(center top, #fde5a7, #fef6e1);
+  background: linear-gradient(center top, #fde5a7, #fef6e1);
 }
 .no-cssgradients .header-wrapper {
   background: url(../img/sky.jpg) center top repeat-x #fde5a7;
@@ -812,6 +815,7 @@ small > a {
 
   background: linear-gradient(center top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
   /* W3C */
+
 }
 .no-cssgradients .wufoo .btTxt.submit {
   background: url(../img/btn-send.jpg) center top repeat-x;
@@ -837,6 +841,7 @@ small > a {
 
   background: linear-gradient(center top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
   /* W3C */
+
 }
 .wufoo .btTxt.submit:active {
   background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #688886), color-stop(50%, #597a7d), color-stop(51%, #4b6e70), color-stop(100%, #4b6e70));
@@ -856,6 +861,7 @@ small > a {
 
   background: linear-gradient(center top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
   /* W3C */
+
 }
 .figure {
   background-color: #619698;
