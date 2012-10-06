@@ -1,6 +1,6 @@
 @import "toolkit.less";
 
-// site-specific variables 
+// site-specific variables
 @snc-yellow: #f2ba32;
 @green-upper: #749593;
 @green-mid: #64898c;
@@ -27,7 +27,7 @@
     left: 0;
     position: absolute;
     width: 100%;
-        
+
     @media only screen and (min-width : 551px) {
         height: 22px;
     }
@@ -69,7 +69,7 @@
     }
 }
 
-// Typography 
+// Typography
 //------------------------------//
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -85,7 +85,7 @@ h4,
 h5,
 h6 {
     line-height: 1;
-    margin: 20px 0 10px;    
+    margin: 20px 0 10px;
 }
 
 h1,
@@ -101,12 +101,12 @@ h3,
 
 h1,
 h2 {
-    text-align: center;    
+    text-align: center;
 }
 
 h1 {
     font-size: 24px;
-    
+
     @media only screen and (min-width : 601px) {
         font-size: 26px;
     }
@@ -179,10 +179,10 @@ h5 {
 }
 
 h6 {
-    font-variant: small-caps;    
+    font-variant: small-caps;
     font-size: 17px;
 }
- 
+
 p {
     margin: 1.6em 0;
     line-height: 1.555555556;
@@ -315,7 +315,7 @@ small > a {
     @media only screen and (min-width : 1151px) {
         font-size: 101px;
     }
-    
+
     .lt-ie9 & {
         font-size: 80px;
         margin: 0 auto;
@@ -349,11 +349,11 @@ small > a {
 .header {
     background: url(../img/sun.png) center top no-repeat;
     background-size: auto 210%;
-    
+
     &-wrapper {
         .gradient(#fde5a7, #fef6e1);
     }
-    
+
     .no-cssgradients &-wrapper {
         background: url(../img/sky.jpg) center top repeat-x #fde5a7;
     }
@@ -429,7 +429,7 @@ small > a {
         @media only screen and (min-width : 1201px) {
             background-position: 48.5% 90%;
         }
-        
+
         .lt-ie9 & {
            background: url(../img/bg-header.jpg) center top no-repeat;
            height: 425px;
@@ -481,7 +481,7 @@ small > a {
     @media only screen and (min-width : 10101px) {
         padding-top: 38px;
     }
-    
+
     .lt-ie9 & {
         padding-top: 0;
     }
@@ -492,22 +492,22 @@ small > a {
 .content-inner:before,
 .footer:before {
     .wave-positioning;
-    
+
     .lt-ie9 & {
         background: none;
-    }    
+    }
 }
 
 .content-wrapper,
 .footer {
-    
+
     &:before {
         top: -19px;
-        
+
         @media only screen and (min-width : 551px) {
             top: -22px;
         }
-        
+
         @media only screen and (min-width : 641px) {
             top: -23px;
         }
@@ -543,71 +543,71 @@ small > a {
         @media only screen and (min-width : 1101px) {
             top: -38px;
         }
-    }        
+    }
 }
 
 .content {
     background-color: @green-mid;
-    
+
     &:before {
         background-image: url(../img/waves-mid.png);
         top: 0;
-    }    
+    }
 
     &-wrapper {
         background-color: @green-upper;
         position: relative;
-        
+
         &:before {
             background-image: url(../img/waves-upper.png);
-        }        
+        }
     }
-    
+
 
     &-inner {
         background-color: @green-main;
         padding-bottom: 19px;
-    
+
         &:before {
             background-image: url(../img/waves-lower.png);
             top: 19px;
-    
+
             @media only screen and (min-width : 551px) {
                 top: 22px;
             }
-    
+
             @media only screen and (min-width : 641px) {
                 top: 23px;
             }
-    
+
             @media only screen and (min-width : 691px) {
                 top: 24px;
             }
-    
+
             @media only screen and (min-width : 791px) {
                 top: 26px;
             }
-    
+
             @media only screen and (min-width : 851px) {
                 top: 28px;
             }
-    
+
             @media only screen and (min-width : 901px) {
                 top: 32px;
             }
-    
+
             @media only screen and (min-width : 951px) {
                 top: 34px;
             }
-    
+
             @media only screen and (min-width : 1001px) {
                 top: 35px;
             }
-    
+
             @media only screen and (min-width : 1001px) {
                 top: 37px;
             }
-    
+
             @media only screen and (min-width : 1101px) {
                 top: 38px;
             }
@@ -622,13 +622,13 @@ small > a {
 }
 
 .article,
-.aside {    
+.aside {
     @media only screen and (min-width : 641px) {
         margin: 0 auto;
         max-width: 600px;
         text-align: justify;
     }
-    
+
     .lt-ie9 & {
         margin: 0 auto;
         width: 600px;
@@ -639,7 +639,7 @@ small > a {
     background-color: @green-footer;
     position: relative;
     text-align: center;
-    
+
     &:before {
         background-image: url(../img/waves-footer.png);
     }
@@ -660,31 +660,31 @@ small > a {
     h2 {
         margin-top: 0;
     }
-    
-    
+
+
     li {
         background: none;
         padding-left: 0;
-        .micro-clearfix();
+        .clearfix();
     }
 
     .name-field {
         float: left;
         margin-right: 0.5em;
         width: 48.25%;
-        
+
         &:last-child {
             margin-right: 0;
         }
-        
+
         label {
             display: block;
         }
-        
+
     }
 
     .desc {
-        margin: 0;    
+        margin: 0;
     }
 
     .label-secondary {
@@ -695,7 +695,7 @@ small > a {
         color: @snc-yellow;
         float: none;
     }
-    
+
     .field {
         border: none;
         .border-radius(7px);
@@ -708,16 +708,16 @@ small > a {
         &.medium {
             width: 95%
         }
-        
+
         &.textarea {
             width: 96%
         }
     }
-    
+
     .hide {
         display: none;
     }
-    
+
     .btTxt.submit {
         border: solid 1px @green-footer;
         color: @white;
@@ -727,7 +727,7 @@ small > a {
         .border-radius(3px);
         .box-shadow(~"0 1px 0 1px" fade(@green-darkest, 10%)~", inset 0 -1px 1px 0" fade(@white, 10%));
         .button-gradient(@green-upper, @green-mid, @green-main, @green-footer);
-        
+
         .no-cssgradients & {
             background: url(../img/btn-send.jpg) center top repeat-x;
         }
@@ -735,14 +735,14 @@ small > a {
         .no-cssgradients &:hover {
             background: url(../img/btn-send.jpg) center bottom repeat-x;
         }
-        
+
         &:hover {
-            .button-gradient(@green-upper, @green-mid, @green-main, @green-main);            
+            .button-gradient(@green-upper, @green-mid, @green-main, @green-main);
         }
-        
+
         &:active {
-            .button-gradient(darken(@green-upper, 5%), darken(@green-mid, 5%), darken(@green-main, 5%), darken(@green-main, 5%));            
- 
+            .button-gradient(darken(@green-upper, 5%), darken(@green-mid, 5%), darken(@green-main, 5%), darken(@green-main, 5%));
+
         }
     }
 }
@@ -757,7 +757,7 @@ small > a {
     @media only screen and (min-width : 641px) {
         margin-right: 20px;
     }
-    
+
     &-inner {
         margin: 5px;
 
@@ -766,7 +766,7 @@ small > a {
             max-width: 100%;
         }
     }
-    
+
     .figcaption {
         font-size: 80%;
         font-style: italic;

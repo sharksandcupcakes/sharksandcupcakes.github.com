@@ -1,3 +1,7 @@
 .DS_Store
 _site/
 _site/*
+artwork/
+artwork/*
+snc.sublime-project
+snc.sublime-workspace
