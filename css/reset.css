@@ -1,4 +1,4 @@
-/*! 
+/*!
 /* Purpose:	Reset browser default styles
 /* Author:		Bridget Stewart (bridgestew@gmail.com)
 /* Updated: 	6.19.2012
@@ -76,7 +76,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 18px;
+  font-size: 100%;
   vertical-align: baseline;
   background: transparent;
   text-rendering: optimizeLegibility;
