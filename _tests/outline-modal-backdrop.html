@@ -1,0 +1,44 @@
+---
+layout: tests
+title: Outline Modal
+style: |
+  body {
+    background-color: #eee;
+  }
+  .main, .side {
+    position: relative;
+    float:left;
+  }
+  .side {
+    width: 25%;
+    left: -65%;
+  }
+  .main {
+    width: 65%;
+    left: 25%;
+  }
+  .modal {
+    background-color: #fff;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+    outline: solid 999px rgba(0,0,0,.5);
+  }
+---
+
+<div class="main">
+    <h1>Content behind the modal</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div class="side">
+    <ul>
+        <li><a href="http://www.google.com">Google1</a></li>
+        <li><a href="http://www.google.com">Google2</a></li>
+        <li><a href="http://www.google.com">Google3</a></li>
+    </ul>
+</div>
+<div class="modal">
+    <h2>Modal Content</h2>
+    <p>I'm a little stuff to display on top of other stuff</p>

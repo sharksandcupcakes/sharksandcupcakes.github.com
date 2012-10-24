@@ -3,18 +3,17 @@
 
     A collection of re-usable LESS CSS Mixins
 
-    Daniel T. Ott
-    http://dtott.com
+    https://github.com/danieltott/Less-CSS-Toolkit
 
-    Bridget Stewart
-    http://sharksandcupcakes.com
+    Created by [Dan Ott](http://dtott.com)
+
+    Maintained and improved by Dan Ott and [Bridget Stewart](http://sharksandcupcakes.com)
 
 */
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #557d7f;
   color: #ffffff;
-  line-height: 1.25;
 }
 h1,
 h2,
@@ -799,25 +798,12 @@ small > a {
   -webkit-box-shadow: 0 1px 0 1px rgba(31, 48, 48, 0.1) , inset 0 -1px 1px 0 rgba(255, 255, 255, 0.1);
   -moz-box-shadow: 0 1px 0 1px rgba(31, 48, 48, 0.1) , inset 0 -1px 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: 0 1px 0 1px rgba(31, 48, 48, 0.1) , inset 0 -1px 1px 0 rgba(255, 255, 255, 0.1);
-  background-color: #628483;
-  background-image: -webkit-gradient(linear, center top, color-stop(0%, #749593), color-stop(50%, #64898c), color-stop(51%, #557d7f), color-stop(100%, #476b6b));
-  /* Chrome,Safari4+ */
-
-  background-image: -webkit-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
-  /* Chrome10+,Safari5.1+ */
-
-  background-image: -o-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
-  /* Opera 11.10+ */
-
-  background-image: -moz-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
-  /* FF3.6+ */
-
-  background-image: -ms-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
-  /* IE10+ */
-
-  background-image: linear-gradient(to bottom, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
-  /* W3C */
-
+  background: -webkit-gradient(linear, center top, color-stop(0%, #749593), color-stop(50%, #64898c), color-stop(51%, #557d7f), color-stop(100%, #476b6b));
+  background: -webkit-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
+  background: -o-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
+  background: -moz-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
+  background: -ms-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
+  background: linear-gradient(to bottom, #749593 0%, #64898c 50%, #557d7f 51%, #476b6b 100%);
 }
 .no-cssgradients .wufoo .btTxt.submit {
   background: url(../img/btn-send.jpg) center top repeat-x;
@@ -826,46 +812,20 @@ small > a {
   background: url(../img/btn-send.jpg) center bottom repeat-x;
 }
 .wufoo .btTxt.submit:hover {
-  background-color: #688b8b;
-  background-image: -webkit-gradient(linear, center top, color-stop(0%, #749593), color-stop(50%, #64898c), color-stop(51%, #557d7f), color-stop(100%, #557d7f));
-  /* Chrome,Safari4+ */
-
-  background-image: -webkit-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
-  /* Chrome10+,Safari5.1+ */
-
-  background-image: -o-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
-  /* Opera 11.10+ */
-
-  background-image: -moz-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
-  /* FF3.6+ */
-
-  background-image: -ms-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
-  /* IE10+ */
-
-  background-image: linear-gradient(to bottom, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
-  /* W3C */
-
+  background: -webkit-gradient(linear, center top, color-stop(0%, #749593), color-stop(50%, #64898c), color-stop(51%, #557d7f), color-stop(100%, #557d7f));
+  background: -webkit-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
+  background: -o-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
+  background: -moz-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
+  background: -ms-linear-gradient(top, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
+  background: linear-gradient(to bottom, #749593 0%, #64898c 50%, #557d7f 51%, #557d7f 100%);
 }
 .wufoo .btTxt.submit:active {
-  background-color: #5c7e7d;
-  background-image: -webkit-gradient(linear, center top, color-stop(0%, #688886), color-stop(50%, #597a7d), color-stop(51%, #4b6e70), color-stop(100%, #4b6e70));
-  /* Chrome,Safari4+ */
-
-  background-image: -webkit-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
-  /* Chrome10+,Safari5.1+ */
-
-  background-image: -o-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
-  /* Opera 11.10+ */
-
-  background-image: -moz-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
-  /* FF3.6+ */
-
-  background-image: -ms-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
-  /* IE10+ */
-
-  background-image: linear-gradient(to bottom, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
-  /* W3C */
-
+  background: -webkit-gradient(linear, center top, color-stop(0%, #688886), color-stop(50%, #597a7d), color-stop(51%, #4b6e70), color-stop(100%, #4b6e70));
+  background: -webkit-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
+  background: -o-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
+  background: -moz-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
+  background: -ms-linear-gradient(top, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
+  background: linear-gradient(to bottom, #688886 0%, #597a7d 50%, #4b6e70 51%, #4b6e70 100%);
 }
 .figure {
   background-color: #619698;
